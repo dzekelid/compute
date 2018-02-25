@@ -1,5 +1,4 @@
 ---
----
 swagger: "2.0"
 info:
   title: AWS Auto Scaling API
@@ -35,6 +34,7 @@ paths:
       tags:
       - metrics collection
 definitions: []
+x-collection-name: AWS Auto Scaling
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
@@ -48,6 +48,4 @@ x-streamrank:
   last_run: ""
   days_run: 0
   minute_run: 0
-...
-
 ---
