@@ -19,11 +19,21 @@ tags:
 - Stack
 - Compute
 - Amazon Web Services
-created: "2018-02-24"
-modified: "2018-02-24"
+created: "2018-02-25"
+modified: "2018-02-25"
 url: https://raw.githubusercontent.com/streamdata-gallery/compute/master/_listings/aws-ec2/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS EC2 API
+  description: Amazon Elastic Compute Cloud is a web service that provides resizable
+    compute capacity in the cloud
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: ""
+  baseURL: :///
+  tags: Compute
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery/compute/master/_listings/aws-ec2/action-describevpngateways-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
