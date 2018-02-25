@@ -17,11 +17,22 @@ tags:
 - Deployment
 - Compute
 - Amazon Web Services
-created: "2018-02-24"
-modified: "2018-02-24"
+created: "2018-02-25"
+modified: "2018-02-25"
 url: https://raw.githubusercontent.com/streamdata-gallery/compute/master/_listings/aws-auto-scaling/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Auto Scaling API
+  description: Auto Scaling helps you maintain application availability and allows
+    you to scale yournbsp;Amazon EC2nbsp;capacity up or down automatically according
+    to conditions you define
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: ""
+  baseURL: :///
+  tags: Compute
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery/compute/master/_listings/aws-auto-scaling/action-updateautoscalinggroup-get.md
 x-common:
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
