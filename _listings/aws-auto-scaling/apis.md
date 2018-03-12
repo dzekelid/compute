@@ -17,8 +17,8 @@ tags:
 - Deployment
 - Compute
 - Amazon Web Services
-created: "2018-03-10"
-modified: "2018-03-10"
+created: "2018-03-12"
+modified: "2018-03-12"
 url: https://raw.githubusercontent.com/streamdata-gallery/compute/master/_listings/aws-auto-scaling/apis.yaml
 specificationVersion: "0.14"
 apis: []
