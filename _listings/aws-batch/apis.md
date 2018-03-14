@@ -19,8 +19,8 @@ tags:
 - Jobs
 - Data
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-14"
+modified: "2018-03-14"
 url: https://raw.githubusercontent.com/streamdata-gallery/compute/master/_listings/aws-batch/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Compute
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/compute/master/_listings/aws-batch/action-updatecomputeenvironment-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/compute/master/_listings/aws-batch/action-createcomputeenvironment-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/batch/latest/APIReference/API_Operations.html
