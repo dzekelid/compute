@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeComputeEnvironments&k=1:
+  /?Action=DescribeComputeEnvironments:
     get:
       summary: ' Describe Compute Environments '
       description: Describes one or more of your compute environments
