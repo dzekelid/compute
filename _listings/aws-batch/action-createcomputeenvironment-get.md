@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateComputeEnvironment&k=1:
+  /?Action=CreateComputeEnvironment:
     get:
       summary: ' Create Compute Environment '
       description: Creates an AWS Batch compute environment
