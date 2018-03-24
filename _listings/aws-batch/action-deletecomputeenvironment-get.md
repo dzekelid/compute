@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteComputeEnvironment&k=1:
+  /?Action=DeleteComputeEnvironment:
     get:
       summary: ' Delete Compute Environment '
       description: Deletes an AWS Batch compute environment
