@@ -33,7 +33,7 @@ apis:
   tags: Compute
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/compute/master/_listings/aws-batch/action-createcomputeenvironment-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/compute/master/_listings/aws-batch/action-deletecomputeenvironment-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/batch/latest/APIReference/API_Operations.html
