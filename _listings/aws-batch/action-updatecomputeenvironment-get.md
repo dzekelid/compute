@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateComputeEnvironment&k=1:
+  /?Action=UpdateComputeEnvironment:
     get:
       summary: ' Update Compute Environment '
       description: Updates an AWS Batch compute environment
