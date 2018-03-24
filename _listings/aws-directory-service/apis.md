@@ -19,9 +19,9 @@ tags:
 - Discovery
 - Authentication
 - Amazon Web Services
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/compute/master/_listings/aws-directory-service/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/compute/master/_listings/aws-directory-service/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Directory Service API
@@ -34,7 +34,7 @@ apis:
   tags: Compute
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/compute/master/_listings/aws-directory-service/action-createcomputer-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/compute/master/_listings/aws-directory-service/action-createcomputer-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/ds/index.html
