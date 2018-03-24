@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateComputer&k=1:
+  /?Action=CreateComputer:
     get:
       summary: ' Create Computer '
       description: Creates a computer account in the specified directory, and joins
