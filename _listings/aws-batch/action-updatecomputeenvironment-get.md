@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Batch API
+  title: AWS Batch API Update Compute Environment
   version: 1.0.0
+  description: Updates an AWS Batch compute environment.
 schemes:
 - http
 produces:
