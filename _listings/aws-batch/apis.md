@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/compute/master/_listings/aws-batch/action-updatecomputeenvironment-get.md
-- name: AWS Batch API Describe Compute Environments
-  description: Describes one or more of your compute environments.
+- name: AWS Batch API Update Compute Environment
+  description: Updates an AWS Batch compute environment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-batch.jpg
   humanURL: https://aws.amazon.com/batch/
   baseURL: http:://{host}//
   tags: Compute
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/compute/master/_listings/aws-batch/action-describecomputeenvironments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/compute/master/_listings/aws-batch/action-updatecomputeenvironment-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/batch/latest/APIReference/API_Operations.html
