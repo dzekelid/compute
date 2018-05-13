@@ -34,7 +34,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/compute/master/_listings/aws-batch/action-updatecomputeenvironment-get.md
+- name: AWS Batch API Create Compute Environment
+  description: Creates an AWS Batch compute environment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-batch.jpg
+  humanURL: https://aws.amazon.com/batch/
+  baseURL: http:://{host}//
+  tags: Compute
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/compute/master/_listings/aws-batch/action-createcomputeenvironment-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/batch/latest/APIReference/API_Operations.html
+- type: x-faq
+  url: https://aws.amazon.com/batch/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/batch/pricing/
+- type: x-use-cases
+  url: https://aws.amazon.com/batch/use-cases/
+- type: x-website
+  url: https://aws.amazon.com/batch/
 - type: x-documentation
   url: http://docs.aws.amazon.com/batch/latest/APIReference/API_Operations.html
 - type: x-faq
