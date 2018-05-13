@@ -35,7 +35,29 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/compute/master/_listings/aws-directory-service/action-createcomputer-get.md
+- name: AWS Directory Service API Create Computer
+  description: Creates a computer account in the specified directory, and joins the
+    computer to the directory.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
+  humanURL: https://aws.amazon.com/directoryservice/
+  baseURL: http:://{host}//
+  tags: Compute
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/compute/master/_listings/aws-directory-service/action-createcomputer-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/ds/index.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/directoryservice/latest/devguide/api-ref.html
+- type: x-faq
+  url: https://aws.amazon.com/directoryservice/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/directoryservice/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/directoryservice/pricing/
+- type: x-website
+  url: https://aws.amazon.com/directoryservice/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/ds/index.html
 - type: x-documentation
