@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Directory Service API
+  title: AWS Directory Service API Create Computer
   version: 1.0.0
+  description: Creates a computer account in the specified directory, and joins the
+    computer to the directory.
 schemes:
 - http
 produces:
